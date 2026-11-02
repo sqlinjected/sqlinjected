@@ -5,3 +5,11 @@ is actually doing: event logs, services, registry. I'm interested in what holds 
 under testing, not what sounds good.
 
 ### Projects
+
+**[evtx-triage](https://github.com/sqlinjected/evtx)**
+Offline Windows event log triage. Parses `.evtx` files and flags brute force, password
+spraying, suspicious service installs, and log clearing. Each finding is explained in
+plain English. Uses a 22M-parameter MiniLM model running locally through ONNX Runtime
+to score service installs that keyword rules miss. Includes a leave-one-out eval and an
+ablation showing where the model helps and where it doesn't.
+`Python` `ONNX Runtime` `pytest`
