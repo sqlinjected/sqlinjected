@@ -13,3 +13,5 @@ plain English. Uses a 22M-parameter MiniLM model running locally through ONNX Ru
 to score service installs that keyword rules miss. Includes a leave-one-out eval and an
 ablation showing where the model helps and where it doesn't.
 `Python` `ONNX Runtime` `pytest`
+
+### Currently building
