@@ -21,3 +21,4 @@ ablation showing where the model helps and where it doesn't.
   generalizes better than hand-written rules
 - Windows 11 general optimization suite
 - Discord custom rich presence suite
+- Persist diff project
