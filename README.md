@@ -20,3 +20,4 @@ ablation showing where the model helps and where it doesn't.
 - A larger held-out set of real 7045 service-install events to test whether the model
   generalizes better than hand-written rules
 - Windows 11 general optimization suite
+- Discord custom rich presence suite
