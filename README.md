@@ -22,4 +22,4 @@ ablation showing where the model helps and where it doesn't.
 - Windows 11 general optimization suite
 - Discord server setup tool
 - Discord custom rich presence suite
-- Persist diff Windows project
+- Persist diff Windows project first build
