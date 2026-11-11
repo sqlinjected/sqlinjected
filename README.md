@@ -23,3 +23,4 @@ ablation showing where the model helps and where it doesn't.
 - Discord server setup tool
 - Discord custom rich presence suite
 - Persist diff Windows project first build and first set of logs produced
+- Torn City faction data aggregator
