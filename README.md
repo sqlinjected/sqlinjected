@@ -19,8 +19,8 @@ ablation showing where the model helps and where it doesn't.
 - A local web UI for evtx-triage where you can drop in logs and view a findings timeline
 - A larger held-out set of real 7045 service-install events to test whether the model
   generalizes better than hand-written rules
-- Windows 11 general optimization suite
+- * Windows 11 general optimization suite
 - Discord server setup tool
 - Discord custom rich presence suite
-- Persist diff Windows project first build and first set of logs produced
-- Torn City faction data aggregator
+- * Persist diff Windows project first build and first set of logs produced
+- * Tornspector
