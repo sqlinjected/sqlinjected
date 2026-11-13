@@ -12,15 +12,19 @@ spraying, suspicious service installs, and log clearing. Each finding is explain
 plain English. Uses a 22M-parameter MiniLM model running locally through ONNX Runtime
 to score service installs that keyword rules miss. Includes a leave-one-out eval and an
 ablation showing where the model helps and where it doesn't.
+
 `Python` `ONNX Runtime` `pytest`
 
-### Currently building
+### Currently Building
 
-- * Windows 11 general optimization suite
-- * Persist diff Windows project first build and first set of logs produced
-- * Tornspector
+- **[persist-diff](https://github.com/sqlinjected/persist-diff)**: snapshots Windows
+  persistence points and diffs them between runs
+- **[tornspector](https://github.com/sqlinjected/tornspector)**: ranked-war intel
+  reports for Torn factions
 - Discord server setup tool
-- Discord custom rich presence suite
-- A local web UI for evtx-triage where you can drop in logs and view a findings timeline
-- A larger held-out set of real 7045 service-install events to test whether the model
-  generalizes better than hand-written rules
+- Discord optimization program
+- A local web UI for evtx-triage: drop in logs, get a findings timeline
+
+### Working in
+
+`Python` `Lua` `SQL` `CSS`
