@@ -21,7 +21,7 @@ ablation showing where the model helps and where it doesn't.
   persistence points and diffs them between runs
 - **[tornspector](https://github.com/sqlinjected/tornspector)**: ranked-war intel
   reports for Torn factions
-- Discord server setup tool
+- **[SQLab](https://github.com/sqlinjected/SQLab)88: discord server setup tool
 - Discord optimization program
 - A local web UI for evtx-triage: drop in logs, get a findings timeline
 
