@@ -23,6 +23,7 @@ ablation showing where the model helps and where it doesn't.
   reports for Torn factions
 - **[SQLab](https://github.com/sqlinjected/SQLab)**: discord server setup tool
 - Discord optimization program
+- Discord server setup automator
 - A local web UI for evtx-triage: drop in logs, get a findings timeline
 
 ### Working in
