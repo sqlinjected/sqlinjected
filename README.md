@@ -28,6 +28,6 @@ ablation showing where the model helps and where it doesn't.
 
 ### Working in
 
-`Python` `Lua` `SQL` `CSS`
+`Python` `Lua` `SQL` `CSS` `JS`
 
 ![Star history across my public repos](assets/stars.svg)
