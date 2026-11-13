@@ -1,0 +1,51 @@
+name: Star Chart
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency: public-star-chart
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find public repos
+        id: repos
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          repos=$(gh api --paginate "users/$OWNER/repos?type=owner&per_page=100" \
+            --jq '.[].full_name' | paste -sd, -)
+          test -n "$repos"
+          echo "list=$repos" >> "$GITHUB_OUTPUT"
+
+      - name: Draw the combined chart
+        uses: leereilly/star-chart@e7fa78bdf8f78da6c3feeb3a97b528fd97d62727 # v0.3
+        with:
+          repositories: ${{ steps.repos.outputs.list }}
+          output: assets/stars.svg
+          style: sparkline
+          title: Public repo stars
+          theme: auto
+          width: '420'
+          show_change: 'false'
+          logo: 'false'
+
+      - name: Save the chart
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/stars.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public repo star chart'
+            git push
+          fi
