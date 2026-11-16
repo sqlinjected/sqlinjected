@@ -30,4 +30,8 @@ ablation showing where the model helps and where it doesn't.
 
 `Python` `Lua` `SQL` `CSS` `JS`
 
+### Stats
+
+![Metrics](https://raw.githubusercontent.com/sqlinjected/sqlinjected/main/github-metrics.svg)
+
 ![Star history across my public repos](assets/stars.svg)
