@@ -28,7 +28,7 @@ ablation showing where the model helps and where it doesn't.
 
 ### Working in
 
-`Python` `Lua` `SQL` `CSS` `JS`
+`Python` `Lua` `SQL` `CSS` `JS` `C#`
 
 ### Stats
 
