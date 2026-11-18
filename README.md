@@ -1,17 +1,17 @@
 ## sqlinjected
 
+DFIR and Windows internals. I build small tools that read what a Windows machine
+is actually doing: event logs, services, registry. I'm interested in what holds up
+under testing, not what sounds good.
+
+### Projects
+
 <p align="center">
   <a href="https://github.com/sqlinjected/evtx"><img alt="EVTX Triage" src="https://img.shields.io/badge/EVTX%20Triage-30363D?logo=github&logoColor=white"></a>
   <a href="https://github.com/sqlinjected/persist-diff"><img alt="persist-diff" src="https://img.shields.io/badge/persist--diff-30363D?logo=github&logoColor=white"></a>
   <a href="https://github.com/sqlinjected/tornspector"><img alt="tornspector" src="https://img.shields.io/badge/tornspector-30363D?logo=github&logoColor=white"></a>
   <a href="https://github.com/sqlinjected/glock"><img alt="glock" src="https://img.shields.io/badge/glock-30363D?logo=github&logoColor=white"></a>
 </p>
-
-DFIR and Windows internals. I build small tools that read what a Windows machine
-is actually doing: event logs, services, registry. I'm interested in what holds up
-under testing, not what sounds good.
-
-### Projects
 
 **[evtx](https://github.com/sqlinjected/evtx)**
 Offline Windows event log triage. Parses `.evtx` files and flags brute force, password
