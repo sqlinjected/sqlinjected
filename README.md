@@ -26,9 +26,11 @@ ablation showing where the model helps and where it doesn't.
 
 - **[persist-diff](https://github.com/sqlinjected/persist-diff)**: snapshots Windows
   persistence points and diffs them between runs
+- **[SQLab](https://github.com/sqlinjected/SQLab)**: discord server setup tool
 - **[tornspector](https://github.com/sqlinjected/tornspector)**: ranked-war intel
   tool
-- **[SQLab](https://github.com/sqlinjected/SQLab)**: discord server setup tool
+- tornotifier
+- torninja
 - Discord optimization program
 - Discord server setup automator
 - A local web UI for evtx-triage: drop in logs, get a findings timeline
