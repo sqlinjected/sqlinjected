@@ -24,7 +24,7 @@ ablation showing where the model helps and where it doesn't.
 
 ### Merged Upstream
 
-<img alt="4 PRs merged upstream" src="https://img.shields.io/badge/PRs%20merged%20upstream-4-8957E5">
+<img alt="PRs merged upstream" src="https://img.shields.io/github/issues-search?query=author%3Asqlinjected%20is%3Apr%20is%3Amerged%20-user%3Asqlinjected&label=PRs%20merged%20upstream&color=8957E5">
 
 **[ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)** <img alt="stars" src="https://img.shields.io/github/stars/ChrisTitusTech/winutil?style=flat&label=%E2%98%85&color=30363D">
 - [#5251](https://github.com/ChrisTitusTech/winutil/pull/5251) fix: prevent FOSS badges from clipping
@@ -41,9 +41,15 @@ ablation showing where the model helps and where it doesn't.
 - **[SQLab](https://github.com/sqlinjected/SQLab)**: discord server setup tool
 - **[tornspector](https://github.com/sqlinjected/tornspector)**: ranked-war intel
   tool
-- tornotifier
-- torninja
-- tct - Torn City Time time conversion tool
+- **[tornotifier](https://github.com/sqlinjected/tornotifier)**: Torn userscript that
+  plays sound alerts for in-game events, using only the Torn API
+- **[torninja](https://github.com/sqlinjected/torninja)**: draggable ninja war partner
+  for Torn with chain, hospital and travel timer alerts
+- **[tct](https://github.com/sqlinjected/tct)**: Torn City Time conversion clock widget
+- **[sat2x](https://github.com/sqlinjected/sat2x)**: Arduino Pro Micro firmware that
+  turns a Sega Saturn racing wheel into an XInput controller
+- **[glock](https://github.com/sqlinjected/glock)**: keeps the mouse on the game
+  screen in dual-monitor setups
 - Discord optimization program
 - Discord server setup automator
 - A local web UI for evtx-triage: drop in logs, get a findings timeline
