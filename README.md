@@ -31,7 +31,7 @@ ablation showing where the model helps and where it doesn't.
   tool
 - tornotifier
 - torninja
-- tct
+- tct - Torn City Time time conversion tool
 - Discord optimization program
 - Discord server setup automator
 - A local web UI for evtx-triage: drop in logs, get a findings timeline
