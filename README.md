@@ -22,6 +22,18 @@ ablation showing where the model helps and where it doesn't.
 
 `Python` `ONNX Runtime` `pytest`
 
+### Merged Upstream
+
+<img alt="4 PRs merged upstream" src="https://img.shields.io/badge/PRs%20merged%20upstream-4-8957E5">
+
+**[ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)** <img alt="stars" src="https://img.shields.io/github/stars/ChrisTitusTech/winutil?style=flat&label=%E2%98%85&color=30363D">
+- [#5251](https://github.com/ChrisTitusTech/winutil/pull/5251) fix: prevent FOSS badges from clipping
+- [#5253](https://github.com/ChrisTitusTech/winutil/pull/5253) fix(tweaks): update classic context menu registry workaround
+
+**[wbp318/github-leaderboard](https://github.com/wbp318/github-leaderboard)** <img alt="stars" src="https://img.shields.io/github/stars/wbp318/github-leaderboard?style=flat&label=%E2%98%85&color=30363D">
+- [#11](https://github.com/wbp318/github-leaderboard/pull/11) fix: support shareable leaderboard view URLs
+- [#14](https://github.com/wbp318/github-leaderboard/pull/14) Recognize more US state-code formats
+
 ### Currently Building
 
 - **[persist-diff](https://github.com/sqlinjected/persist-diff)**: snapshots Windows
