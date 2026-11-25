@@ -51,7 +51,7 @@ ablation showing where the model helps and where it doesn't.
 - **[glock](https://github.com/sqlinjected/glock)**: keeps the mouse on the game
   screen in dual-monitor setups
 - Discord optimization program
-- Discord server setup automator
+- seed Discord server setup automator
 - A local web UI for evtx-triage: drop in logs, get a findings timeline
 
 ### Working in
